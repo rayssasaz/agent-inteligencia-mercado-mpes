@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+app/.env
+.env.local
+*.pem
+*.json
+!manifest.yaml
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
